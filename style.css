@@ -1,0 +1,11 @@
+.containerOne {
+    display: grid;
+}
+
+.row {
+    border: 1px solid black;
+}
+
+.column {
+    border: 1px solid black;
+}
