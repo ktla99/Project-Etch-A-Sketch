@@ -1,1 +1,4 @@
-const containerOne = document.createElement('containerOne');
+const containerOne = document.querySelector('#containerOne');
+
+const grid = document.createElement('div');
+containerOne.appendChild(grid);
