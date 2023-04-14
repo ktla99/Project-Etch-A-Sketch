@@ -28,3 +28,7 @@ body {
     margin: auto;
     background-color: paleturquoise;
 }
+
+button {
+    padding: 10px;
+}
