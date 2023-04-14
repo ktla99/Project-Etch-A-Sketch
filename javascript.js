@@ -14,5 +14,11 @@ createGrid();
 
 const button = document.querySelector("button");
 button.addEventListener('click', => () {
+    let userChoice = prompt("How many boxes do you want to have?");
+    console.log(userChoice);
+    let userNumber = parseInt(userChoice);
+    console.log(userNumber);
+    let finalNumber = Math.round(userNumber);
+    console.log(finalNumber);
     
-}
+    
