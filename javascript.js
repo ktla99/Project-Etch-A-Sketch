@@ -62,3 +62,7 @@ for(const div of newGrid) {
     };
 });
 
+let eraser = document.querySelectorAll('#eraser > div');
+
+
+
