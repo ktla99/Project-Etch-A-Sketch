@@ -1,6 +1,8 @@
 let container = document.querySelector('#container');
 let eraser = document.querySelector('#eraser');
 let random = document.querySelector('#random');
+let colorful = false;
+let erase = false;
 
 function createGrid() {
     for(let boxes = 0; boxes < (16*16); boxes ++) {
