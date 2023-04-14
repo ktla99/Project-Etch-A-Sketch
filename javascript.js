@@ -11,3 +11,8 @@ function createGrid() {
     }
 }
 createGrid();
+
+const button = document.querySelector("button");
+button.addEventListener('click', => () {
+    
+}
