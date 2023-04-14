@@ -37,6 +37,11 @@ function changeGridSize() {
         }
     
     let newGrid = document.createElement('div')
+
+    newContainer.appendChild(newGrid);
+
+    newGrid.style.height = 500/finalNumber;
+    newGrid.style.width = 500/finalNumber;
     }
 }
 ]
