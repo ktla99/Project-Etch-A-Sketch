@@ -64,5 +64,5 @@ for(const div of newGrid) {
 
 let eraser = document.querySelector('#eraser');
 
-
+let random = document.querySelector('#random');
 
