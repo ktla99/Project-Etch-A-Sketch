@@ -57,7 +57,12 @@ let newGrid = document.querySelectorAll('#container > div');
 
 for(const div of newGrid) {
     div.addEventListener('mouseover', function mouseover() {
-        div.style.backgroundColor = 'black';
+        div.style.backgroundColor = 'teal';
     });
     };
 });
+
+const resetButton = document.querySelector('#reset');
+resetButton.addEventListener('click', () => {
+    createGrid();
+})
