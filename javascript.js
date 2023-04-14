@@ -1,4 +1,6 @@
 let container = document.querySelector('#container');
+let eraser = document.querySelector('#eraser');
+let random = document.querySelector('#random');
 
 function createGrid() {
     for(let boxes = 0; boxes < (16*16); boxes ++) {
@@ -62,7 +64,6 @@ for(const div of newGrid) {
     };
 });
 
-let eraser = document.querySelector('#eraser');
 
-let random = document.querySelector('#random');
+
 
