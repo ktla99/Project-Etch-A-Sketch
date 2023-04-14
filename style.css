@@ -10,7 +10,7 @@ body {
 }
 
 #create,
-#reset,
+#eraser,
 #random {
     margin-bottom: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -19,7 +19,7 @@ body {
 }
 
 #create:hover,
-#reset:hover,
+#eraser:hover,
 #random:hover{
     background-color: rgb(252, 0, 252);
     transition: .2s;
