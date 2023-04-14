@@ -35,3 +35,9 @@ function changeGridSize() {
         if(finalNumber > 100) {
             alert("Please only put in numbers between 0-100");
         }
+    
+    let newGrid = document.createElement('div')
+    }
+}
+]
+}
