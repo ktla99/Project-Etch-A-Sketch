@@ -14,3 +14,9 @@ button:hover{
     background-color: rgb(252, 0, 252);
     transition: .2s;
 }
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
