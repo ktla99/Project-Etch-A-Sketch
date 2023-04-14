@@ -12,7 +12,7 @@ function createGrid() {
 }
 createGrid();
 
-const button = document.querySelector("button");
+const button = document.querySelector('button');
 button.addEventListener('click', => () {
     let userChoice = prompt("How many boxes do you want to have?");
     console.log(userChoice);
