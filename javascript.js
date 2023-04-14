@@ -42,6 +42,9 @@ function changeGridSize() {
 
     newGrid.style.height = 500/finalNumber;
     newGrid.style.width = 500/finalNumber;
+
+    newGrid.style.flexShrink = '0';
+    newGrid.style.border = '1px solid blue';
     }
 }
 ]
