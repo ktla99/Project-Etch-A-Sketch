@@ -13,7 +13,7 @@ function createGrid() {
 createGrid();
 
 const button = document.querySelector('button');
-button.addEventListener('click', => () {
+button.addEventListener('click', () => {
     let userChoice = prompt("How many boxes do you want to have?");
     console.log(userChoice);
     let userNumber = parseInt(userChoice);
@@ -25,7 +25,7 @@ button.addEventListener('click', => () {
     oldBoxesDiv.forEach(oldBoxesDiv => {
         oldBoxesDiv.remove();
     });
-});
+
 
 let totalBoxes = (finalNumber * finalNumber);
 
@@ -42,7 +42,7 @@ function changeGridSize() {
     newContainer.appendChild(newGrid);
 
     newGrid.style.height = 500/finalNumber;
-    newGrid.style.width = 500/finalNumber;w
+    newGrid.style.width = 500/finalNumber;
 
     newGrid.style.flexShrink = '0';
     newGrid.style.border = '1px solid blue';
