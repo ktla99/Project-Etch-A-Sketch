@@ -26,3 +26,7 @@ button.addEventListener('click', => () {
         oldBoxesDiv.remove();
     })
 
+let totalBoxes = (finalNumber * finalNumber);
+
+let newContainer = document.querySelector('#container');
+
