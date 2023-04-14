@@ -9,12 +9,18 @@ body {
     text-align: center;
 }
 
-#create {
+#create,
+#reset,
+#random {
     margin-bottom: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+    background-color: salmon;
 }
 
-#create:hover{
+#create:hover,
+#reset:hover,
+#random:hover{
     background-color: rgb(252, 0, 252);
     transition: .2s;
 }
