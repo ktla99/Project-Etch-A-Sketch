@@ -30,3 +30,8 @@ let totalBoxes = (finalNumber * finalNumber);
 
 let newContainer = document.querySelector('#container');
 
+function changeGridSize() {
+    for(let boxes = 0; boxes < (16*16); boxes ++) {
+        if(finalNumber > 100) {
+            alert("Please only put in numbers between 0-100");
+        }
