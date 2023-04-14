@@ -21,8 +21,8 @@ button.addEventListener('click', () => {
     let finalNumber = Math.round(userNumber);
     console.log(finalNumber);
 
-    const oldBoxesDiv = container.querySelectorAll('div');
-    oldBoxesDiv.forEach(oldBoxesDiv => {
+    const oldBoxesDivs = container.querySelectorAll('div');
+    oldBoxesDivs.forEach(oldBoxesDiv => {
         oldBoxesDiv.remove();
     });
 
