@@ -41,7 +41,7 @@ function changeGridSize() {
 
     newContainer.appendChild(newGrid);
 
-    newGrid.style.height = 500/finalNumber + 'px'
+    newGrid.style.height = 500/finalNumber + 'px';
     newGrid.style.width = 500/finalNumber + 'px';
 
     newGrid.style.flexShrink = '0';
