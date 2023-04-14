@@ -20,11 +20,12 @@ button.addEventListener('click', => () {
     console.log(userNumber);
     let finalNumber = Math.round(userNumber);
     console.log(finalNumber);
-    
+
     const oldBoxesDiv = container.querySelectorAll('div');
     oldBoxesDiv.forEach(oldBoxesDiv => {
         oldBoxesDiv.remove();
-    })
+    });
+});
 
 let totalBoxes = (finalNumber * finalNumber);
 
