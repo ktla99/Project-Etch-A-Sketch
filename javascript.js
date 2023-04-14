@@ -49,6 +49,6 @@ function changeGridSize() {
 }
 changeGridSize();
 
-
+let newGrid = document.querySelectorAll('#container > div');
 ]
 }
