@@ -57,4 +57,4 @@ for(const div of newGrid) {
         div.style.backgroundColor = 'black';
     });
     };
-};
+});
