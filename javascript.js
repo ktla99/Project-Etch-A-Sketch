@@ -45,4 +45,10 @@ addEventListeners("onload", generateGrid());
 
 function randomColor() {
     let rows = document.querySelectorAll(".row");
-    
+    rows.forEach((row) => 
+        row.addEventListener("mouseover", function() {
+            let color = Math.floor(Math.random() * 16777215).toString(16);
+            this.style.backgroundColor = '#' + color;
+        })
+        );
+}
