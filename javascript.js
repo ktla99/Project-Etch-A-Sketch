@@ -9,4 +9,15 @@ function generateGrid(size = 16) {
     if (size > 100) {
         alert("Please only put in numbers between 0-100!")
     }
-    
+    let grid = document.querySelector(".grid");
+    for(let i = 0; i < size; i++) {
+        let column = document.createElement('div');
+        column.classList.add("column");
+        for(let j = 0; j < size; j++) {
+            let row = document.createElement('div');
+            row.classList.add("row");
+            column.appendChild(row);
+        }  
+        
+    }
+}
