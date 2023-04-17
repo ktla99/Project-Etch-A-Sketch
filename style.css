@@ -58,3 +58,12 @@ button:hover {
     background-color: #154e2d;
     align-items: center;
 }
+
+.paramItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
