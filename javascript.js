@@ -18,6 +18,7 @@ function generateGrid(size = 16) {
             row.classList.add("row");
             column.appendChild(row);
         }  
-        
+        grid.appendChild(column);
     }
+    addEventListeners();
 }
