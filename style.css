@@ -46,6 +46,15 @@ body {
 
 button:hover {
     background-color: rgb(54, 216, 89);
-    color:rgb(243, 51, 179)
+    color:rgb(243, 51, 179);
+    transition: .2s;
+
 }
 
+.param {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: #154e2d;
+    align-items: center;
+}
