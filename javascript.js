@@ -28,3 +28,9 @@ function changeSize() {
     size = size.value;
     generateGrid(size);
 }
+
+function changeColor () {
+    let color = document.querySelector(".input-color");
+    color = color.value;
+    changeColor(color);
+}
