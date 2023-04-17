@@ -22,3 +22,9 @@ function generateGrid(size = 16) {
     }
     addEventListeners();
 }
+
+function changeSize() {
+    let size = document.querySelector(".input-number");
+    size = size.value;
+    generateGrid(size);
+}
