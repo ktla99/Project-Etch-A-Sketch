@@ -43,3 +43,9 @@ body {
     flex: 1;
     display: flex;
 }
+
+button:hover {
+    background-color: rgb(54, 216, 89);
+    color:rgb(243, 51, 179)
+}
+
