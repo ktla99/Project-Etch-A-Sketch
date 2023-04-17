@@ -34,3 +34,11 @@ function changeColor () {
     color = color.value;
     this.style.backgroundColor = color;
 }
+
+function addEventListeners() {
+    let rows = document.querySelectorAll(".row");
+    rows.forEach((row) =>
+        row.addEventListener("mouseover", changeColor)
+        );
+}
+addEventListeners("onload", generateGrid());
