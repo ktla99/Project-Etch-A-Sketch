@@ -65,6 +65,7 @@ button:hover {
     flex-direction: column; 
     background-color: #154e2d;
     align-items: center;
+    padding-top: 10px;
 }
 
 .paramItem {
