@@ -26,3 +26,9 @@ body {
     flex-direction: row;
 }
 
+.grid {
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+}
