@@ -32,5 +32,5 @@ function changeSize() {
 function changeColor () {
     let color = document.querySelector(".input-color");
     color = color.value;
-    changeColor(color);
+    this.style.backgroundColor = color;
 }
