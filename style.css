@@ -67,7 +67,6 @@ button:hover {
     flex-direction: column; 
     background-color: #154e2d;
     align-items: center;
-    padding-top: 10px;
 }
 
 .paramItem {
@@ -76,7 +75,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
 }
 
 input,
@@ -86,9 +85,20 @@ button {
     height: 50px;
     border-radius: 10px;
     padding: 5px 10px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .input-number {
     text-align: center;
     padding: 0px;
+}
+
+#generate-grid {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 30px;
+    margin-top: 5px;
 }
