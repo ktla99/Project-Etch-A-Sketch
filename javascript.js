@@ -42,3 +42,7 @@ function addEventListeners() {
         );
 }
 addEventListeners("onload", generateGrid());
+
+function randomColor() {
+    let rows = document.querySelectorAll(".row");
+    
